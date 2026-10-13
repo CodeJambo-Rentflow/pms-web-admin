@@ -1,0 +1,21 @@
+# Default owner for everything
+*                       @nomedo
+
+# Service-specific owners
+/pms-auth-service/              @nomedo
+/pms-property-service/          @nomedo
+/pms-tenant-service/            @nomedo
+/pms-payment-service/           @nomedo
+/pms-report-service/            @nomedo
+/pms-notification-service/      @nomedo
+/pms-api-gateway/               @nomedo
+/pms-web-admin/                 @nomedo
+/pms-tenant-mobile/             @nomedo
+/pms-shared-libs/               @nomedo
+/pms-infra/                     @nomedo
+/pms-docs/                      @nomedo
+
+# Security-critical paths
+.github/workflows/              @nomedo
+.pre-commit-config.yaml         @nomedo
+SECURITY.md                     @nomedo

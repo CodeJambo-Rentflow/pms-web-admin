@@ -1,0 +1,64 @@
+# ===== Java / Maven / Gradle =====
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Node / React / React Native =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+coverage/
+.next/
+out/
+*.tsbuildinfo
+
+# React Native
+android/app/build/
+android/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+*.keystore
+!debug.keystore
+*.mobileprovision
+
+# ===== Environment & Secrets =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.vault-token
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Test / Coverage =====
+jacoco.exec
+coverage.xml
+.coverage
+htmlcov/
