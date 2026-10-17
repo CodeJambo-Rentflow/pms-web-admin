@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #F3F4F6;
+}
+
+/* Make table headers look softer */
+.ant-table-thead > tr > th {
+  background: #F9FAFB !important;
+  color: #4B5563 !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid #E5E7EB !important;
+}
