@@ -18,6 +18,7 @@ dist/
 coverage/
 .next/
 out/
+.vite/
 *.tsbuildinfo
 
 # React Native
